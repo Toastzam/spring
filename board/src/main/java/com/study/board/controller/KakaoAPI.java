@@ -61,7 +61,6 @@ public class KakaoAPI {
         return accessToken;
     }
 
-
     public HashMap<String, Object> getUserInfo(String accessToken) {
         HashMap<String, Object> userInfo = new HashMap<String, Object>();
         String reqUrl = "https://kapi.kakao.com/v2/user/me";
@@ -102,7 +101,6 @@ public class KakaoAPI {
         return userInfo;
     }
 
-
     public void kakaoLogout(String accessToken) {
         String reqURL = "http://kapi.kakao.com/v1/user/logout";
         try {
@@ -126,9 +124,4 @@ public class KakaoAPI {
             e.printStackTrace();
         }
     }
-
-
-
-
-
 }
