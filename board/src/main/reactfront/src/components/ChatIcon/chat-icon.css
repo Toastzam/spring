@@ -1,0 +1,9 @@
+.chat-icon{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 10;
+    border-radius: 10px;
+}

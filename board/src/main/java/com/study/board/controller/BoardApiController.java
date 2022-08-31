@@ -5,9 +5,10 @@ import com.study.board.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.util.StringUtils;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/api")
 class BoardApiController {
@@ -54,6 +55,9 @@ class BoardApiController {
     }
     @DeleteMapping("/boards/{id}")
     void deleteBoard(@PathVariable Long id) {
+
         repository.deleteById(id);
     }
+
 }
+

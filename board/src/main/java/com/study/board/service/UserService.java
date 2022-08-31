@@ -22,7 +22,7 @@ public class UserService {
         user.setEnabled(true);
         Role role = new Role();
         role.setId(1l);
-        user.getRoles().add(role);
+//        user.getRoles().add(role);
         return userRepository.save(user);
     }
 }

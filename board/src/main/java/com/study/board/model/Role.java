@@ -2,8 +2,10 @@ package com.study.board.model;
 
 import lombok.Data;
 
-import javax.persistence.*;
-import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 @Data
@@ -14,7 +16,7 @@ public class Role {
 
     private String name;
 
-    @ManyToMany(mappedBy = "roles")
-    private List<User> users;
+//    @ManyToMany(mappedBy = "roles")
+//    private List<User> users;
 }
 

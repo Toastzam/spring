@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.body-login{
+    height: 670px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+    padding: 80px 0;
+}
+
+.login-box{
+    border: 2px solid rgb(196, 196, 196, 30);
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meright{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.sign-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.write{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    height: 20px;
+}
+
+.detail-login{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.kakao{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}

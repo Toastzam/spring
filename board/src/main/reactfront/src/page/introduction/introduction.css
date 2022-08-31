@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+  
+.body-introduction{
+    display: flex;
+    justify-content: center;
+    margin: 180px auto;
+    margin-bottom: 70px;
+  }
+
+/* --------------------
+관련 법률 소개
+----------------------- */
+.law-box{
+    width: 50%;
+}
+
+.law-box fieldset{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.law-box fieldset legend{
+    background-color: black;
+    color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+fieldset .detail{
+    margin-left: 3%;
+}
+
+.law-b{
+    color: black;
+    font-size: 15px;
+}
+
+.law-box p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+/* ----------------------
+법률 자문 관련 링크 라디오 박스
+------------------------- */
+.radio-box{
+    width: 30%;
+    margin-left: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.radio-box img{
+    width: 90%;
+    height: 90%;
+    padding-top: 20px;
+}
+
+.radio-field-box{
+    border: none;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}

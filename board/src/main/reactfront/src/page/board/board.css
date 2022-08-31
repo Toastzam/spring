@@ -1,0 +1,70 @@
+
+  
+.body-board{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.board-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* .board-subTitle{
+    margin-bottom: 50px;
+    text-align: center;
+} */
+
+table{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+th{
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.btn-bg{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ------------------------
+글 입력 창
+--------------------------- */
+.write-box{
+    text-align: center;
+}
+
+.text-title-box{
+    width: 80%;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+.text-box{
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.file-input{
+    float: right;
+    margin-right: 150px;
+}
